@@ -10,6 +10,10 @@ end
 gem 'rails', ' 5.1.6'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: :development
+
+#Use bootstrap library for styles
+gem 'bootstrap-sass', '3.3.1'
+
 #Use postgresql for database for production
 
 group :production do
@@ -17,6 +21,7 @@ group :production do
   gem 'rails_12factor'
 end
 # Use Puma as the app server
+
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
