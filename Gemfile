@@ -8,11 +8,9 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', ' 5.1.6'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: :development
-
-#Use bootstrap library for styles
-gem 'bootstrap-sass', '3.3.1'
 
 #Use postgresql for database for production
 
@@ -23,8 +21,16 @@ end
 # Use Puma as the app server
 
 gem 'puma', '~> 3.7'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+
+#Use bootstrap library for styles
+gem 'bootstrap-sass', '3.3.1'
+
+#Use font-awesome-sass for icons
+gem 'font-awesome-sass', '~> 5.0.9'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
